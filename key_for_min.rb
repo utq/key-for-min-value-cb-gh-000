@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   temp_key = ""
   temp_value = ""
   name_hash.each do |key, value|
-    if (temp_value == "") 
+    if (temp_value == "")
       temp_key = key
       temp_value = value
 
@@ -17,4 +17,3 @@ def key_for_min_value(name_hash)
   end
   temp_key
 end
-
